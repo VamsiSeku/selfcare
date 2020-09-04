@@ -1,0 +1,64 @@
+.OptionsHolder {
+    height: 4rem;
+    display : flex;
+}
+
+.OptionsHolder .nav {
+    font-weight: bold;
+    align-items: baseline;
+}
+
+.QuickLinksArea{
+    font-size: 10px;
+}
+
+.HelpImage, .WorkMgmtImage {
+    width: 35px;
+}
+
+.PendingChangesOperationHolder
+{
+    float: right;
+    margin: 5px 10px 0px 0px;
+}
+
+.PendingChangesOperationHolder .btn{
+    color: black;
+}
+
+.SaveOptionBtn, .RevertOptionBtn{
+    background-color: #d5d6d6;
+    border-radius: 10px;
+    margin: 5px;
+    color: black;
+}
+
+.UserPopover{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.HeaderBreadCrumbAcc{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.PowerImageHolder {
+    margin: 0 6px;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.16);
+    background-color: #f8f8f9;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.PowerSymbolImage {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    cursor: pointer;
+}

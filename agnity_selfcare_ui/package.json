@@ -1,0 +1,46 @@
+{
+  "name": "agnity_selfcare_ui",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/SelfCarePortalUI/build",
+  "proxy": "http://10.32.8.132:8045/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.3.1",
+    "elasticsearch": "^16.7.1",
+    "es5": "npm:@elastic/elasticsearch@^5.6.22",
+    "jquery": "^3.5.1",
+    "rc-datepicker": "^5.0.16",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-datepicker": "^3.1.3",
+    "react-dom": "^16.13.1",
+    "react-export-excel": "^0.5.3",
+    "react-intl": "^5.0.2",
+    "react-scripts": "3.4.1",
+    "react-to-pdf": "0.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

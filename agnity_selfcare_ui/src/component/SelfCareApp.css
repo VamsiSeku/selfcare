@@ -1,0 +1,515 @@
+@font-face {
+	font-family: 'ProximaNovaA-Light';
+	src: url("./../font/ProximaNovaA-Light.eot?#iefix") format("embedded-opentype"),
+	url("./../font/ProximaNovaA-Light.woff") format("woff"),
+	url("./../font/ProximaNovaA-Light.ttf") format("truetype"),
+	url("./../font/ProximaNovaA-Light.otf") format("otf"),
+	url("./../font/ProximaNovaA-Light.svg#ProximaNovaA-Light") format("svg"),
+	url("./../font/ProximaNovaA-Light.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNovaA-Regular';
+	src: url("./../font/ProximaNovaA-Regular.eot?#iefix") format("embedded-opentype"),
+	url("./../font/ProximaNovaA-Regular.woff") format("woff"),
+	url("./../font/ProximaNovaA-Regular.ttf") format("truetype"),
+	url("./../font/ProximaNovaA-Regular.otf") format("otf"),
+	url("./../font/ProximaNovaA-Regular.svg#ProximaNovaA-Regular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ShowAlert {
+    display: block;
+}
+
+.HideAlert {
+    display: none;
+}
+
+h1, h2, h3, h4, h5,p,div,button, select, input,div>button.btn,div>button.btn:hover {
+    font-family: 'ProximaNovaA-Light',Arial,Helvetica,sans-serif;
+}
+
+div>button.btn,div>button.btn:hover {
+    color: #fff;
+}
+
+.AgnityLogoWithPointer {
+	width: 125px;
+    height: 45px;
+    cursor: pointer;
+}
+.AgnityLogoWithOutPointer {
+	width: 125px;
+    height: 45px;
+}
+
+
+.HeaderPanel {
+	border-bottom: 1px solid rgb(221, 221, 221);
+    margin: 0;
+}
+
+.TitleSpan {
+    color: #49799d;
+    font-weight: bold;
+    display:inline;
+}
+
+.TitleSpan span {
+    color:brown;
+}
+
+.AppLauncherImage {
+    width: 20px;
+}
+
+.UserImage {
+    width: 25px;
+}
+
+.AppLauncherImage, .UserImage {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.FormHeader {
+    background-color: #49799d;
+    color: #fff;
+    padding: 2rem;
+}
+
+.FooterHolder {
+    margin-top: 2%
+}
+
+.FooterPanel {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d4d1d1;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.AccInfoFormBody .react-datepicker-component .react-datepicker-input input {
+    width: 18.8rem;
+}
+
+.ExtenderImg {
+    width: 11px;
+}
+
+.UserlevelBreadcrumb {
+    padding: 0;
+    font-size: 14px;
+}
+
+.UserlevelBreadcrumb .breadcrumb {
+    background-color: #e9ecef;
+    margin-left: 10px;
+    padding: 2px 10px;
+}
+
+.Userbreadcrumb span {
+    font-weight: 600;
+}
+
+.Userbreadcrumb {
+    background-color: #e9ecef;
+}
+
+.PaginationPanel {
+    height: 45px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.Pagination{
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+.UserPopover p {
+    display: inline;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.NewIcon {
+    height: 4rem;
+    float: right;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.TableRadioButton {
+    border: 0px;
+    width: 100%;
+    height: 1.3em;
+}
+
+/* PatternSelectArea has now been changed to Select Box - to be removed*/
+.PatternSelectArea {
+    height: 15rem;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 8px 8px;
+    width: 20rem;
+    color: #333;
+    font-size: 14px;
+    -webkit-appearance: none;
+}
+
+.PatternSelectArea ol {
+    margin-left: -2.5rem;
+    list-style-type: none;
+}
+
+.PatternSelectArea ol li {
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+/*commented as it is causing the color change on clicking breadcrumb item
+.PatternSelectArea ol li:hover, ol li:active, ol li:focus { 
+    background-color: rgb(170, 170, 170);
+}*/
+
+div.ActionButton[disabled] {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+div[disabled] {
+  opacity: 0.5;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .4rem .8rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: 2.25rem;
+    width: fit-content;
+    margin-bottom: .5rem;
+    margin-top: .3rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: none;
+}
+
+.breadcrumb-item a {
+    color: black;
+    font-weight: bold;
+}
+
+.breadcrumb-item .Userbreadcrumb a {
+    text-decoration: none;
+    cursor: default;
+}
+
+.PatternType label, .PatternRow label, .CountryCodeTitle label {
+    margin: 0px;
+    width: 100%;
+}
+
+.CountryCodeSelectArea {
+    margin-top: 10px;
+}
+
+.ShowPattern {
+    display: block;
+}
+
+.HidePattern {
+    display: none;
+}
+
+.SelectedPatternArea {
+    width: 300px;
+    min-height: 200px;
+}
+
+.DeleteDialogBtn {
+    background-color: #336699;
+    border-radius: 10px;
+    width: 5rem;
+}
+
+.SPSComponentTableHolder {
+    margin: 5px 15px 5px 15px;
+    border: 1px solid #d5d5d5;
+    border-top: 0px;
+    margin-top: 1%;
+}
+
+.SPSComponentTable {
+    table-layout: fixed;
+    overflow: hidden;
+}
+
+.SPSComponentTblHeader {
+    color: white;
+    background-color: #696969;
+    font-family: 'ProximaNovaA-Light',Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+
+.SPSComponentTblBody {
+    table-layout: fixed;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #000099;
+}
+
+.SPSComponentTblBody>tr td{
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 4px;
+    border: none;
+}
+
+.FeatureSelectionPanel .nav a {
+    color: steelblue;
+    font-size: 15px;
+}
+
+.FeatureSelectionPanel .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: steelblue;
+    border-bottom: 3px solid steelblue;
+    font-size: 15px;
+}
+
+.FeatureSelectionPanel .nav-tabs .nav-link {
+    border: none;
+    padding: 0.4rem 2rem;
+    font-weight: bold;
+}
+
+.FeatureSelectionPanel {
+    width: 100%;
+    background: '#d1dff8';
+}
+
+.ShowElement
+{
+    display: block;
+}
+
+.HideElement
+{
+    display: none;
+}
+
+.ErrorDisplayPanel{
+    margin: 0px 30px;
+}
+
+.HideSearchBarPanel {
+    display: none;
+}
+
+.ShowSearchBarPanel {
+    display: block;
+}
+
+.AgnitySPSTableHolder{
+    margin: 2%;
+    border: 1px solid #d5d5d5;
+    border-top: 0px;
+}
+
+.AgnitySPSTableBody{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.AgnitySPSTableBody td{
+    padding: 0px 4px;
+    border: none;
+}
+
+.AgnitySPSErrorPanel
+{
+    margin: 20px;
+}
+
+td.ActionIcons > button
+{
+    padding: 0px;
+}
+
+.SPSHeaderPanel > div{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.SPSFormHolder div
+{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #000099;
+    margin: 4px 4px;
+}
+
+.SPSFormHolder label
+{
+    padding-top: 4px;
+    margin: 0px;
+}
+
+.required {
+    color: red;
+    font-size: 15px;
+    padding: 4px;
+}
+
+.SPSHeaderPanel h5
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div>.SPSRadioButton
+{
+    margin-right: 6px;
+}
+
+.h2, h2 {
+    font-size: 15px;
+}
+
+.FieldRequired{
+    color: red;
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.ShowFilter{
+    display: block;
+}
+
+.HideFilter{
+    display: none;
+}
+
+.subscriptionManagementButton {
+    background-color: #336699;
+    border-radius: 5px;
+    border-color: #336699;
+    float: right;
+   
+}
+
+.ActionIcons {
+    padding-left: 10px;
+    align-items: center;
+}
+
+.EditIcon, .AssignIcon, .QuarantineIcon {
+    width: 16px;
+    height: 16px;
+    margin-left: 2px;
+}
+
+.SettingsIcon {
+    width: 22px;
+    height: 22px;
+}
+
+.DeleteIcon {
+    width: 18px;
+    height: 18px;
+    margin-left: 5%;
+}
+
+.table td, .table th {
+    position: relative;
+    padding: .75rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+.ExtenderIcon{
+    width: 17px;
+    margin-left: 5px;
+}
+
+.ScreenNavigationInfoPanel{
+    margin: 10px 0px 0px 10px;
+    margin-top: 4px!important;
+}
+
+.SPSComponentPanel{
+    border: none;
+    height: auto;
+}
+
+.paginationNew {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    display: flex!important;
+    justify-content: space-between!important;
+    align-content: flex-start!important;
+    align-items: center;
+}
+
+.FilterImage{
+    width: 40px;
+}
+
+.SearchBarPanelNew
+{
+    background-color: #f2f2f2;
+    height: 60px;
+    margin: 0px 15px;
+    /* border-radius: 5px; */
+}
+
+.SearchBarPanel
+{
+    background-color: #f2f2f2;
+    height: 60px;
+}
+
+.FieldSelectArea, .SearchCriteriaSelectArea, .SearchInputHolder{
+    margin-left: 3%;
+}
+
+.FieldSelect, .SearchCriteriaSelect, .SearchInputArea{
+    font-family: 'ProximaNovaA-Light',Arial,Helvetica,sans-serif;
+    color: #0c0c0c;
+    border: 1px solid #d5d5d5;
+    background-color: white;
+    border-radius: 7px;
+    width: 17rem;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.SearchInputArea{
+    padding:.7rem;
+    color: #8c8b8b;
+    font-weight: bold;
+}
+
+.ANIHistoryFilter, .AuditFilter
+{
+    margin: 5px 15px 5px 15px;
+}

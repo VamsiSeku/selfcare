@@ -1,0 +1,75 @@
+@import url("../SelfCareApp.css");
+
+.parentCard {
+    margin: 12% 25% 10% 25%;
+    border: none;
+}
+
+.LoginHolder {
+    border: 1px solid #5F90B6;
+    background-color: #e6efff;
+    border-width: 2px;
+    border-radius: 7%;
+    max-width: 500px;
+    padding: 1.8rem;
+}
+
+h4{
+    color: #4c7596;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -5%;
+}
+
+.UserNameHolder, .PasswordHolder, .LanguageSelectHolder 
+{ 
+    height: 0%;
+    border: 1px solid white;
+}
+
+.input-group
+{
+    margin: 12px;
+    width: auto;
+}
+
+.LoginButton 
+{
+    margin-top: 12px;
+    width: 100%;
+    background-color: #5F90B6;
+    font-size: 20px;
+    padding:0;
+    border-radius:0;  
+    color: white; 
+}
+
+.LoginLock 
+{
+    width: 21%;
+    margin-left: 38%;
+    margin-top: -24%;
+}
+
+.LoginInputPrepend
+{
+    width: 38px;
+    height: 32px;
+    background-color: #5F90B6;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserIconImage, .LockIconImage
+{
+    width: 22px;
+}
+
+.LanguageIconImage
+{
+    width: 37px;
+}
+
+.SelfCareErrorMessageHeader{
+    color: red;
+}
